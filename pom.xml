@@ -22,6 +22,16 @@
   </modules>
 
   <distributionManagement>
+           <repository>
+                    <id>deployment</>
+                    <name>Internal Releases</name>
+                    <url>http://192.168.1.74/:8081/repository/Cloud-Gen-Release/</url>
+                    <repository>
+                    <snapshotRepository>
+                    <id>deployment</>
+                    <name>Internal Snapshot Release</name>
+                    <url>http://192.168.1.74:8081/repository/Cloud-Gen-Release/</url>
+         </snapshotRepository>
     <site>
       <id>site-server</id>
       <name>Test Project Site</name>
