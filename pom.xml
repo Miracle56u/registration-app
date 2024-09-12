@@ -30,7 +30,7 @@
                     <snapshotRepository>
                     <id>deployment</>
                     <name>Internal Snapshot Release</name>
-                    <url>http://192.168.1.74:8081/repository/Cloud-Gen-Release/</url>
+                    <url>http://192.168.1.74:8081/repository/Cloud-Gen-Snap/</url>
          </snapshotRepository>
     <site>
       <id>site-server</id>
